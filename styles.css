@@ -1,1 +1,51 @@
-/*  your css code here. If applicable */
+
+    <style>
+        table {
+            width: 100%;
+            background-color: yellow;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>20</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>21</td>
+                <td>Electrical Engineering</td>
+            </tr>
+            <tr>
+                <td>Alan Brown</td>
+                <td>22</td>
+                <td>Mechanical Engineering</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
